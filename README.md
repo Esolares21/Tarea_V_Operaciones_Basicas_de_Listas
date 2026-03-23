@@ -1,27 +1,18 @@
-#📋 Gestión de Estudiantes - Listas Enlazadas Simples
-Este proyecto consiste en una aplicación de consola desarrollada en C++ que implementa un sistema básico de gestión de estudiantes. El objetivo principal es demostrar el manejo de estructuras de datos dinámicas, específicamente el uso de listas enlazadas simples.
+# 📋 SISTEMA DE GESTIÓN DE ESTUDIANTES
+> **Estudiante:** Erix Alejandro Solares Flores  
+> **Carné:** 9941-20-23978
 
-##✨ Características
-El sistema permite realizar las operaciones fundamentales de una lista:
+## 📝 Descripción del Proyecto
+Este programa en **C++** permite administrar una base de datos de estudiantes utilizando **listas enlazadas simples**. El sistema aplica conceptos de **memoria dinámica** y punteros para insertar, buscar y eliminar registros de forma eficiente.
 
-Inserción Dinámica: Agregar nodos al inicio o al final de la lista.
+## 🚀 Funcionalidades Principales
+El sistema incluye un menú interactivo con las siguientes opciones:
+* **Inserción:** Agregar nodos al inicio o al final de la lista.
+* **Visualización:** Recorrido completo de la lista de estudiantes.
+* **Búsqueda:** Localización por número de carné.
+* **Eliminación:** Borrado físico del nodo y liberación de memoria.
 
-Recorrido de Datos: Visualización completa de los estudiantes registrados.
+## 🛠️ Especificaciones Técnicas
+* Estructuras (`struct`) para los nodos
+* Punteros y memoria dinámica (`new` y `delete`)
 
-Búsqueda Selectiva: Localización de registros específicos mediante el número de carné.
-
-Gestión de Memoria: Eliminación de nodos específicos liberando la memoria utilizada.
-
-##🛠️ Tecnologías Utilizadas
-Lenguaje: C++
-
-Conceptos clave: Punteros, Estructuras (struct), Memoria Dinámica (new/delete).
-
-Entorno: CLion / Consola.
-
-##👤 Autor
-Nombre: Erix Alejandro Solares Flores
-
-Carné: 9941-20-23978
-
-Curso: Programación 3 - Universidad Mariano Gálvez
